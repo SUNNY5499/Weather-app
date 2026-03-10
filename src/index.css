@@ -13,11 +13,14 @@
     opacity: 1;
     transform: translateY(0);
   }
+  
 }
 
 .animate-fadeIn {
   animation: fadeIn 1s ease-in-out;
 }
+
+
 
 .search-bar {
   animation: searchGlow 4s ease-in-out infinite;

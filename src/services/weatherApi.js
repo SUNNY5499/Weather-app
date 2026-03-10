@@ -9,10 +9,3 @@ export const getWeather = async (city) => {
   );
   return res.data;
 };
-
-export const getForecast = async (city) => {
-  const res = await axios.get(
-    `${BASE_URL}/forecast?q=${city}&appid=${API_KEY}&units=metric`
-  );
-  return res.data;
-};
